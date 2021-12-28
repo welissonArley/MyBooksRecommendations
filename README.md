@@ -27,7 +27,23 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Text and link to Medium
+GraphQL is a query language that gives clients the power to ask for exactly what they need and nothing more and nothing less. While typical REST APIs require loading from multiple URLs, GraphQL APIs get all the data in a single request.
+
+As a Back-end developer, you can make easy the Front-end developers’ and the Designers’ life to make changes on the site or on the app, and the best part: without ask you to modify an endpoint or create a new one 😄.
+
+I created this repository to learn how to use and implement an API .NET Core with GraphQL, and to allow other developers to study and see the code’s details.
+
+I wrote an article on Medium where I teach with details how I created and run this project. You can read it using the links below:
+
+English version:
+
+link here
+
+French version:
+
+link here
+
+One last tip: you should really read my book recommendations list 🤓.
 
 ### Built With
 
