@@ -30,14 +30,9 @@ builder.Services.AddScoped(provider => new AutoMapper.MapperConfiguration(cfg =>
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-    app.UseGraphQLAltair();
-}
-
-app.UseHttpsRedirection();
+app.UseSwagger();
+app.UseSwaggerUI();
+app.UseGraphQLAltair();
 
 app.UseAuthorization();
 
