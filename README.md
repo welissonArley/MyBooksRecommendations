@@ -33,16 +33,6 @@ As a Back-end developer, you can make easy the Front-end developers’ and the D
 
 I created this repository to learn how to use and implement an API .NET Core with GraphQL, and to allow other developers to study and see the code’s details.
 
-I wrote an article on Medium where I teach with details how I created and run this project. You can read it using the links below:
-
-English version:
-
-link here
-
-French version:
-
-link here
-
 One last tip: you should really read my book recommendations list 🤓.
 
 ### Built With
@@ -54,7 +44,9 @@ One last tip: you should really read my book recommendations list 🤓.
 
 You can test (and see my book recomendations) for free on:
 
-https://play.google.com/store/apps/details?id=com.id1tech.timerom.app
+```sh
+   docker pull welissonarley/mybooksrecommendations:master
+   ```
 
 To get a local copy up and running follow these simple steps.
 
