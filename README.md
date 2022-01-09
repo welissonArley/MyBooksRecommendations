@@ -42,15 +42,28 @@ One last tip: you should really read my book recommendations list 🤓.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-You can test (and see my book recomendations) for free on:
+##### You can test (and see my book recomendations) for free:
+
+1. Download the image from docker hub
 
 ```sh
    docker pull welissonarley/mybooksrecommendations:master
    ```
 
-To get a local copy up and running follow these simple steps.
+2. Run a container
 
-### Prerequisites
+```sh
+   docker run -d -p 8080:80 --name mybooksrecommendations_service welissonarley/mybooksrecommendations:master
+   ```
+3. Open your browser and go to:
+
+```sh
+   http://localhost:8080/ui/altair
+   ```
+
+##### To get a local copy up and running follow these simple steps.
+
+### Pre requisites
 
 * Visual Studio 2022+
 
@@ -60,7 +73,7 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/welissonArley/MyBooksRecommendations.git
    ```
-2. Run the Web Api;
+2. Run the Web Api (your defalt browser will open with http://localhost:8080/ui/altair);
 
 3. Have a good time testing.
 
